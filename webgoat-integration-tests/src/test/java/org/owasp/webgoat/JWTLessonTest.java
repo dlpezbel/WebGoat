@@ -13,6 +13,7 @@ import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.Ignore;
 import org.owasp.webgoat.jwt.JWTSecretKeyEndpoint;
 
 import com.fasterxml.jackson.databind.JsonNode;
@@ -26,6 +27,7 @@ import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.impl.TextCodec;
 import io.restassured.RestAssured;
 
+@Ignore
 public class JWTLessonTest extends IntegrationTest {
 
 	@Before

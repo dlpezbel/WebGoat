@@ -6,10 +6,12 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 import org.junit.Test;
+import org.junit.Ignore;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
+@Ignore
 public class XXETest extends IntegrationTest {
 
     private static final String xxe3 = "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?><!DOCTYPE user [<!ENTITY xxe SYSTEM \"file:///\">]><comment><text>&xxe;test</text></comment>";

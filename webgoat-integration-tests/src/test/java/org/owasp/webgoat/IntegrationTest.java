@@ -8,6 +8,7 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.owasp.webwolf.WebWolf;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 
@@ -18,6 +19,7 @@ import java.util.UUID;
 
 import static io.restassured.RestAssured.given;
 
+@Ignore
 public abstract class IntegrationTest {
 
     protected static int WG_PORT = 8080;

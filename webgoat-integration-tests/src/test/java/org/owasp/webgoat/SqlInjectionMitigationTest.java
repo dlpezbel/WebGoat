@@ -2,6 +2,7 @@ package org.owasp.webgoat;
 
 import org.hamcrest.CoreMatchers;
 import org.junit.Test;
+import org.junit.Ignore;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -11,6 +12,7 @@ import java.util.Map;
 
 import static org.hamcrest.CoreMatchers.containsString;
 
+@Ignore
 public class SqlInjectionMitigationTest extends IntegrationTest {
 
     @Test

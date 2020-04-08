@@ -1,10 +1,12 @@
 package org.owasp.webgoat;
 
 import org.junit.Test;
+import org.junit.Ignore;
 
 import java.util.HashMap;
 import java.util.Map;
 
+@Ignore
 public class SqlInjectionLessonTest extends IntegrationTest {
 
     private static final String sql_2 = "select department from employees where last_name='Franco'";

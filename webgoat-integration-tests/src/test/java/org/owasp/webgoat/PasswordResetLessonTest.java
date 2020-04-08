@@ -3,9 +3,11 @@ package org.owasp.webgoat;
 import io.restassured.RestAssured;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
+import org.junit.Ignore;
 
 import java.util.Map;
 
+@Ignore
 public class PasswordResetLessonTest extends IntegrationTest {
 
     @Test

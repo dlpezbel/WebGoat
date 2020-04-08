@@ -10,10 +10,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.junit.Test;
+import org.junit.Ignore;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-
+@Ignore
 public class CSRFTest extends IntegrationTest {
 	
 	private static final String trickHTML3 = "<!DOCTYPE html><html><body><form action=\"WEBGOATURL\" method=\"POST\">\n" + 

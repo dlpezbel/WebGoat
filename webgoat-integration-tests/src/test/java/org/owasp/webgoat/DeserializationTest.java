@@ -6,8 +6,9 @@ import java.util.Map;
 
 import org.dummy.insecure.framework.VulnerableTaskHolder;
 import org.junit.Test;
+import org.junit.Ignore;
 import org.owasp.webgoat.deserialization.SerializationHelper;
-
+@Ignore
 public class DeserializationTest extends IntegrationTest {
 
 	private static String OS = System.getProperty("os.name").toLowerCase();

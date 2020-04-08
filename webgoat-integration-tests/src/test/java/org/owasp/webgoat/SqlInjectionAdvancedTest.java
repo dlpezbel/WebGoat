@@ -4,7 +4,9 @@ import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Map;
+import org.junit.Ignore;
 
+@Ignore
 public class SqlInjectionAdvancedTest extends IntegrationTest {
 
     @Test

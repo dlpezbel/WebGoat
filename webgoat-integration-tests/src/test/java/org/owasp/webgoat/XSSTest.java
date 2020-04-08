@@ -1,12 +1,14 @@
 package org.owasp.webgoat;
 
 import org.junit.Test;
+import org.junit.Ignore;
 
 import io.restassured.RestAssured;
 
 import java.util.HashMap;
 import java.util.Map;
 
+@Ignore
 public class XSSTest extends IntegrationTest {
 
     

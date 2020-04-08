@@ -7,9 +7,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.junit.Test;
+import org.junit.Ignore;
 
 import io.restassured.RestAssured;
 
+@Ignore
 public class WebWolfTest extends IntegrationTest {
     
     @Test

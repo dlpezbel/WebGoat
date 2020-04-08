@@ -5,11 +5,12 @@ import io.restassured.http.ContentType;
 import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.Ignore;
 
 import java.util.HashMap;
 import java.util.Map;
 
-
+@Ignore
 public class GeneralLessonTest extends IntegrationTest {
 
     @Test
